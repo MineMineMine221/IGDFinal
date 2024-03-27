@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#272A2A"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="392dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="74dp"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="318dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/combat" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="260dp"
+                    android:fontFamily="@font/rubik_light"
+                    android:text="COMBAT"
+                    android:textColor="#f2f2f2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:text="Damage dealt to body\nDamage absorbed by armor\nAmmo used\nHit count\nFatal hits\nOverall accuracy \nLevel 0-10 players killed\nLevel 11-30 players killed\nLevel 31-50 players killed\nLevel 51-70 players killed\nLevel 71-99 players killed\nLevel 100 players killed\nBEARS killed\nUSECS killed\nScavs killed\nPMCs killed\nBosses killed\nHeadshots\nLong-distance headshot kills\nLongest shot distance\nLongest kill streak\nMelee weapon kills\nPistol kills\nSMG kills\nShotgun kills\nAssault rifle kills\nAssault carbine kills\nGrenade launcher kills Machine gun kills\nMachine gun kills\nMarksman rifle kills\nBolt-action rifle kills\nSpecial weapon kills\nGrenade kills"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginBottom="1dp"
+                    android:text="39696\n 7664\n 2650\n 1269\n 218\n 0.28\n 7\n 18\n 0\n 0\n 0\n 0\n 13\n 12\n 193\n 25\n 0\n 113\n 11\n 329.65\n 12\n 0\n 0\n 27\n 42\n 96\n 14\n 0\n 2\n 0\n 35\n 0\n 0"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
